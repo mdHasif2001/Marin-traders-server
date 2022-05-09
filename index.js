@@ -104,6 +104,13 @@ app.get('/', (req, res) => {
     res.send('Running My Node CRUD Server here we go');
 })
 
+app.get('/hero', (req, res) =>{
+    res.send('Hero meets hero ku')
+})
+
+app.get('/hero+9')
+
+
 app.listen(port, () => {
     console.log('Crud server is running')
 })
