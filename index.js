@@ -105,7 +105,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/hero', (req, res) =>{
-    res.send('Hero meets hero ku')
+    res.send('Hasif meets heroku')
 })
 
 app.get('/hero+9')
